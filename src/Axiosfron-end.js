@@ -6,7 +6,6 @@ const app = express();
 
 // Base URL for the API
 const base_url = "http://localhost:3000"
-// const base_url = "http://node65883-tharita-47.proen.app.ruk-com.cloud/"
 
 app.set("views",path.join(__dirname, "/public/views"));
 app.set('view engine', 'ejs');
